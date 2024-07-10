@@ -28,12 +28,12 @@ View the output: The program will print the word count and character count stati
 Example
 Given a book text file (frankenstein.txt) located in the books directory with some content, running the script:
 
-bash
+```bash
 Copy code
 python bookbot.py
 Will produce output similar to:
-
-sql
+```
+```sql
 Copy code
 --- Begin report of books/frankenstein.txt ---
 [Number of words] words found in the document
@@ -42,6 +42,7 @@ The 'e' character was found [count] times
 The 't' character was found [count] times
 ...
 --- End report ---
+```
 Code Overview
 Here's a brief overview of the main functions in the script:
 
