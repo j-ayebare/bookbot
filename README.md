@@ -11,30 +11,27 @@ Character Count: Counts the occurrences of each alphabetical character (case-ins
 Statistics Report: Provides a comprehensive report with word and character counts.
 Installation
 Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/BookBot.git
+```bash
+git clone https://github.com/j-ayebare/BookBot.git
+```
 Navigate to the project directory:
-bash
-Copy code
+```bash
 cd BookBot
+```
 Usage
 Ensure the book text file (e.g., frankenstein.txt) is located in the books directory within the project.
 Run the script:
-bash
-Copy code
+```bash
 python bookbot.py
+```
 View the output: The program will print the word count and character count statistics to the console.
 Example
 Given a book text file (frankenstein.txt) located in the books directory with some content, running the script:
-
 ```bash
-Copy code
 python bookbot.py
-Will produce output similar to:
 ```
+Will produce output similar to:
 ```sql
-Copy code
 --- Begin report of books/frankenstein.txt ---
 [Number of words] words found in the document
 
@@ -52,6 +49,7 @@ get_num_words(text): Calculates and returns the number of words in the text.
 get_num_char(text): Calculates and returns a dictionary with the count of each alphabetical character in the text.
 print_report(text, book_path): Prints the report, including the word count and sorted character counts.
 get_value(d): Helper function to extract the value from a dictionary for sorting purposes.
+
 Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to create a pull request or open an issue.
 
@@ -59,4 +57,4 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For questions or feedback, please contact your-email@example.com.
+For questions or feedback, please contact jeremiahayebare@gmail.com.
